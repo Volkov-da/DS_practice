@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)https://www.kaggle.com/adastraz1/exercise-lists/edit -->
+<html data-lt-installed="true"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style id="react-tooltip">.__react_component_tooltip{border-radius:3px;display:inline-block;font-size:13px;left:-999em;opacity:0;padding:8px 21px;position:fixed;pointer-events:none;transition:opacity 0.3s ease-out;top:-999em;visibility:hidden;z-index:999}.__react_component_tooltip.allow_hover,.__react_component_tooltip.allow_click{pointer-events:auto}.__react_component_tooltip:before,.__react_component_tooltip:after{content:"";width:0;height:0;position:absolute}.__react_component_tooltip.show{opacity:0.9;margin-top:0px;margin-left:0px;visibility:visible}.__react_component_tooltip.type-dark{color:#fff;background-color:#222}.__react_component_tooltip.type-dark.place-top:after{border-top-color:#222;border-top-style:solid;border-top-width:6px}.__react_component_tooltip.type-dark.place-bottom:after{border-bottom-color:#222;border-bottom-style:solid;border-bottom-width:6px}.__react_component_tooltip.type-dark.place-left:after{border-left-color:#222;border-left-style:solid;border-left-width:6px}.__react_component_tooltip.type-dark.place-right:after{border-right-color:#222;border-right-style:solid;border-right-width:6px}.__react_component_tooltip.type-dark.border{border:1px solid #fff}.__react_component_tooltip.type-dark.border.place-top:before{border-top:8px solid #fff}.__react_component_tooltip.type-dark.border.place-bottom:before{border-bottom:8px solid #fff}.__react_component_tooltip.type-dark.border.place-left:before{border-left:8px solid #fff}.__react_component_tooltip.type-dark.border.place-right:before{border-right:8px solid #fff}.__react_component_tooltip.type-success{color:#fff;background-color:#8DC572}.__react_component_tooltip.type-success.place-top:after{border-top-color:#8DC572;border-top-style:solid;border-top-width:6px}.__react_component_tooltip.type-success.place-bottom:after{border-bottom-color:#8DC572;border-bottom-style:solid;border-bottom-width:6px}.__react_component_tooltip.type-success.place-left:after{border-left-color:#8DC572;border-left-style:solid;border-left-width:6px}.__react_component_tooltip.type-success.place-right:after{border-right-color:#8DC572;border-right-style:solid;border-right-width:6px}.__react_component_tooltip.type-success.border{border:1px solid #fff}.__react_component_tooltip.type-success.border.place-top:before{border-top:8px solid #fff}.__react_component_tooltip.type-success.border.place-bottom:before{border-bottom:8px solid #fff}.__react_component_tooltip.type-success.border.place-left:before{border-left:8px solid #fff}.__react_component_tooltip.type-success.border.place-right:before{border-right:8px solid #fff}.__react_component_tooltip.type-warning{color:#fff;background-color:#F0AD4E}.__react_component_tooltip.type-warning.place-top:after{border-top-color:#F0AD4E;border-top-style:solid;border-top-width:6px}.__react_component_tooltip.type-warning.place-bottom:after{border-bottom-color:#F0AD4E;border-bottom-style:solid;border-bottom-width:6px}.__react_component_tooltip.type-warning.place-left:after{border-left-color:#F0AD4E;border-left-style:solid;border-left-width:6px}.__react_component_tooltip.type-warning.place-right:after{border-right-color:#F0AD4E;border-right-style:solid;border-right-width:6px}.__react_component_tooltip.type-warning.border{border:1px solid #fff}.__react_component_tooltip.type-warning.border.place-top:before{border-top:8px solid #fff}.__react_component_tooltip.type-warning.border.place-bottom:before{border-bottom:8px solid #fff}.__react_component_tooltip.type-warning.border.place-left:before{border-left:8px solid #fff}.__react_component_tooltip.type-warning.border.place-right:before{border-right:8px solid #fff}.__react_component_tooltip.type-error{color:#fff;background-color:#BE6464}.__react_component_tooltip.type-error.place-top:after{border-top-color:#BE6464;border-top-style:solid;border-top-width:6px}.__react_component_tooltip.type-error.place-bottom:after{border-bottom-color:#BE6464;border-bottom-style:solid;border-bottom-width:6px}.__react_component_tooltip.type-error.place-left:after{border-left-color:#BE6464;border-left-style:solid;border-left-width:6px}.__react_component_tooltip.type-error.place-right:after{border-right-color:#BE6464;border-right-style:solid;border-right-width:6px}.__react_component_tooltip.type-error.border{border:1px solid #fff}.__react_component_tooltip.type-error.border.place-top:before{border-top:8px solid #fff}.__react_component_tooltip.type-error.border.place-bottom:before{border-bottom:8px solid #fff}.__react_component_tooltip.type-error.border.place-left:before{border-left:8px solid #fff}.__react_component_tooltip.type-error.border.place-right:before{border-right:8px solid #fff}.__react_component_tooltip.type-info{color:#fff;background-color:#337AB7}.__react_component_tooltip.type-info.place-top:after{border-top-color:#337AB7;border-top-style:solid;border-top-width:6px}.__react_component_tooltip.type-info.place-bottom:after{border-bottom-color:#337AB7;border-bottom-style:solid;border-bottom-width:6px}.__react_component_tooltip.type-info.place-left:after{border-left-color:#337AB7;border-left-style:solid;border-left-width:6px}.__react_component_tooltip.type-info.place-right:after{border-right-color:#337AB7;border-right-style:solid;border-right-width:6px}.__react_component_tooltip.type-info.border{border:1px solid #fff}.__react_component_tooltip.type-info.border.place-top:before{border-top:8px solid #fff}.__react_component_tooltip.type-info.border.place-bottom:before{border-bottom:8px solid #fff}.__react_component_tooltip.type-info.border.place-left:before{border-left:8px solid #fff}.__react_component_tooltip.type-info.border.place-right:before{border-right:8px solid #fff}.__react_component_tooltip.type-light{color:#222;background-color:#fff}.__react_component_tooltip.type-light.place-top:after{border-top-color:#fff;border-top-style:solid;border-top-width:6px}.__react_component_tooltip.type-light.place-bottom:after{border-bottom-color:#fff;border-bottom-style:solid;border-bottom-width:6px}.__react_component_tooltip.type-light.place-left:after{border-left-color:#fff;border-left-style:solid;border-left-width:6px}.__react_component_tooltip.type-light.place-right:after{border-right-color:#fff;border-right-style:solid;border-right-width:6px}.__react_component_tooltip.type-light.border{border:1px solid #222}.__react_component_tooltip.type-light.border.place-top:before{border-top:8px solid #222}.__react_component_tooltip.type-light.border.place-bottom:before{border-bottom:8px solid #222}.__react_component_tooltip.type-light.border.place-left:before{border-left:8px solid #222}.__react_component_tooltip.type-light.border.place-right:before{border-right:8px solid #222}.__react_component_tooltip.place-top{margin-top:-10px}.__react_component_tooltip.place-top:before{border-left:10px solid transparent;border-right:10px solid transparent;bottom:-8px;left:50%;margin-left:-10px}.__react_component_tooltip.place-top:after{border-left:8px solid transparent;border-right:8px solid transparent;bottom:-6px;left:50%;margin-left:-8px}.__react_component_tooltip.place-bottom{margin-top:10px}.__react_component_tooltip.place-bottom:before{border-left:10px solid transparent;border-right:10px solid transparent;top:-8px;left:50%;margin-left:-10px}.__react_component_tooltip.place-bottom:after{border-left:8px solid transparent;border-right:8px solid transparent;top:-6px;left:50%;margin-left:-8px}.__react_component_tooltip.place-left{margin-left:-10px}.__react_component_tooltip.place-left:before{border-top:6px solid transparent;border-bottom:6px solid transparent;right:-8px;top:50%;margin-top:-5px}.__react_component_tooltip.place-left:after{border-top:5px solid transparent;border-bottom:5px solid transparent;right:-6px;top:50%;margin-top:-4px}.__react_component_tooltip.place-right{margin-left:10px}.__react_component_tooltip.place-right:before{border-top:6px solid transparent;border-bottom:6px solid transparent;left:-8px;top:50%;margin-top:-5px}.__react_component_tooltip.place-right:after{border-top:5px solid transparent;border-bottom:5px solid transparent;left:-6px;top:50%;margin-top:-4px}.__react_component_tooltip .multi-line{display:block;padding:2px 0px;text-align:center}</style><meta name="viewport" content="width=device-width,initial-scale=1"><title>Exercise: Lists | Kaggle</title><link href="./Exercise_ Lists _ Kaggle_files/icon" rel="stylesheet"><style>@import url('https://fonts.googleapis.com/css?family=Inter:400,400i,500,500i,600,600i,700,700i');
+    @import url("https://use.typekit.net/tql2nih.css");
+
+    html,
+    body {
+      font-family: Inter, sans-serif;
+      height: 100%;
+      margin: 0;
+    }
+
+    .header {
+      padding: 0;
+    }
+
+    #root {
+      height: 100%;
+    }</style><meta name="description" content="The Kaggle Kernels IDE for Data Scientists."><link href="./Exercise_ Lists _ Kaggle_files/notebook-61fa608e86c681139aa6.css" rel="stylesheet">
+
+          <script type="text/javascript" async="" src="./Exercise_ Lists _ Kaggle_files/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-Me/xBbBvuuItTu/oAnI7UkdtjfgtuZXbaYLJKHlUuMOlG+7MivghWo/kKOwhQ7pf" nonce=""></script><script nonce="">window.KAGGLE_JUPYTER_PATH = "/static/dist/jupyterlab/index-167cb058947cfceaddc25f46fc92cd5d.html";</script>
+          <script nonce="">window.KAGGLE_JUPYTERLAB_PATH = "/static/dist/jupyterlab/jupyterlab-index-84814d990665503fc8fd2b17e54c7fe4.html";</script>
+          
+<style data-styled="active" data-styled-version="5.1.0"></style><script charset="utf-8" src="./Exercise_ Lists _ Kaggle_files/chunk-12-f38a4a90f6f50170b37a.js"></script><script charset="utf-8" src="./Exercise_ Lists _ Kaggle_files/chunk-17-95ff1248fb4fd5f8aefd.js"></script><script charset="utf-8" src="./Exercise_ Lists _ Kaggle_files/chunk-10-626fd505a817f2cf4dc6.js"></script><script charset="utf-8" src="./Exercise_ Lists _ Kaggle_files/chunk-11-4e343b0fac36616eed59.js"></script><style data-jss="" data-meta="MuiTouchRipple">
+.MuiTouchRipple-root {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 0;
+  overflow: hidden;
+  position: absolute;
+  border-radius: inherit;
+  pointer-events: none;
+}
+.MuiTouchRipple-ripple {
+  opacity: 0;
+  position: absolute;
+}
+.MuiTouchRipple-rippleVisible {
+  opacity: 0.3;
+  animation: MuiTouchRipple-keyframes-mui-ripple-enter 550ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: scale(1);
+}
+.MuiTouchRipple-ripplePulsate {
+  animation-duration: 200ms;
+}
+.MuiTouchRipple-child {
+  width: 100%;
+  height: 100%;
+  display: block;
+  opacity: 1;
+  border-radius: 50%;
+  background-color: currentColor;
+}
+.MuiTouchRipple-childLeaving {
+  opacity: 0;
+  animation: MuiTouchRipple-keyframes-mui-ripple-exit 550ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.MuiTouchRipple-childPulsate {
+  top: 0;
+  left: 0;
+  position: absolute;
+  animation: MuiTouchRipple-keyframes-mui-ripple-pulsate 2500ms cubic-bezier(0.4, 0, 0.2, 1) 200ms infinite;
+}
+@-webkit-keyframes MuiTouchRipple-keyframes-mui-ripple-enter {
+  0% {
+    opacity: 0.1;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes MuiTouchRipple-keyframes-mui-ripple-exit {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes MuiTouchRipple-keyframes-mui-ripple-pulsate {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.92);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+</style><style data-jss="" data-meta="MuiButtonBase">
+.MuiButtonBase-root {
+  color: inherit;
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  display: inline-flex;
+  outline: none;
+  padding: 0;
+  position: relative;
+  align-items: center;
+  user-select: none;
+  border-radius: 0;
+  vertical-align: middle;
+  -moz-appearance: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.MuiButtonBase-root::-moz-focus-inner {
+  border-style: none;
+}
+.MuiButtonBase-root.Mui-disabled {
+  cursor: default;
+  pointer-events: none;
+}
+</style><style data-jss="" data-meta="MuiInputBase">
+.MuiInputBase-root {
+  color: rgba(0, 0, 0, 0.87);
+  cursor: text;
+  display: inline-flex;
+  position: relative;
+  font-size: 1rem;
+  box-sizing: border-box;
+  align-items: center;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1.1875em;
+}
+.MuiInputBase-root.Mui-disabled {
+  color: rgba(0, 0, 0, 0.38);
+  cursor: default;
+}
+.MuiInputBase-multiline {
+  padding: 6px 0 7px;
+}
+.MuiInputBase-multiline.MuiInputBase-marginDense {
+  padding-top: 3px;
+}
+.MuiInputBase-fullWidth {
+  width: 100%;
+}
+.MuiInputBase-input {
+  font: inherit;
+  color: currentColor;
+  width: 100%;
+  border: 0;
+  height: 1.1875em;
+  margin: 0;
+  display: block;
+  padding: 6px 0 7px;
+  min-width: 0;
+  background: none;
+  box-sizing: content-box;
+  -webkit-tap-highlight-color: transparent;
+}
+.MuiInputBase-input::-webkit-input-placeholder {
+  color: currentColor;
+  opacity: 0.42;
+  transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.MuiInputBase-input::-moz-placeholder {
+  color: currentColor;
+  opacity: 0.42;
+  transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.MuiInputBase-input:-ms-input-placeholder {
+  color: currentColor;
+  opacity: 0.42;
+  transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.MuiInputBase-input::-ms-input-placeholder {
+  color: currentColor;
+  opacity: 0.42;
+  transition: opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.MuiInputBase-input:focus {
+  outline: 0;
+}
+.MuiInputBase-input:invalid {
+  box-shadow: none;
+}
+.MuiInputBase-input::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+.MuiInputBase-input.Mui-disabled {
+  opacity: 1;
+}
+label[data-shrink=false] + .MuiInputBase-formControl .MuiInputBase-input::-webkit-input-placeholder {
+  opacity: 0 !important;
+}
+label[data-shrink=false] + .MuiInputBase-formControl .MuiInputBase-input::-moz-placeholder {
+  opacity: 0 !important;
+}
+label[data-shrink=false] + .MuiInputBase-formControl .MuiInputBase-input:-ms-input-placeholder {
+  opacity: 0 !important;
+}
+label[data-shrink=false] + .MuiInputBase-formControl .MuiInputBase-input::-ms-input-placeholder {
+  opacity: 0 !important;
+}
+label[data-shrink=false] + .MuiInputBase-formControl .MuiInputBase-input:focus::-webkit-input-placeholder {
+  opacity: 0.42;
+}
+label[data-shrink=false] + .MuiInputBase-formControl .MuiInputBase-input:focus::-moz-placeholder {
+  opacity: 0.42;
+}
+label[data-shrink=false] + .MuiInputBase-formControl .MuiInputBase-input:focus:-ms-input-placeholder {
+  opacity: 0.42;
+}
+label[data-shrink=false] + .MuiInputBase-formControl .MuiInputBase-input:focus::-ms-input-placeholder {
+  opacity: 0.42;
+}
+.MuiInputBase-inputMarginDense {
+  padding-top: 3px;
+}
+.MuiInputBase-inputSelect {
+  padding-right: 24px;
+}
+.MuiInputBase-inputMultiline {
+  height: auto;
+  resize: none;
+  padding: 0;
+}
+.MuiInputBase-inputTypeSearch {
+  -moz-appearance: textfield;
+  -webkit-appearance: textfield;
+}
+</style><style data-jss="" data-meta="MuiInput">
+.MuiInput-root {
+  position: relative;
+}
+label + .MuiInput-formControl {
+  margin-top: 16px;
+}
+.MuiInput-underline:after {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  position: absolute;
+  transform: scaleX(0);
+  transition: transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+  border-bottom: 2px solid #303f9f;
+  pointer-events: none;
+}
+.MuiInput-underline.Mui-focused:after {
+  transform: scaleX(1);
+}
+.MuiInput-underline.Mui-error:after {
+  transform: scaleX(1);
+  border-bottom-color: #f44336;
+}
+.MuiInput-underline:before {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "\00a0";
+  position: absolute;
+  transition: border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+  pointer-events: none;
+}
+.MuiInput-underline:hover:not(.Mui-disabled):before {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.87);
+}
+.MuiInput-underline.Mui-disabled:before {
+  border-bottom-style: dotted;
+}
+@media (hover: none) {
+  .MuiInput-underline:hover:not(.Mui-disabled):before {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+  }
+}
+</style><style data-jss="" data-meta="MuiIconButton">
+.MuiIconButton-root {
+  flex: 0 0 auto;
+  color: rgba(0, 0, 0, 0.54);
+  padding: 12px;
+  overflow: visible;
+  font-size: 1.5rem;
+  text-align: center;
+  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 50%;
+}
+.MuiIconButton-root:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+.MuiIconButton-root.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26);
+  background-color: transparent;
+}
+@media (hover: none) {
+  .MuiIconButton-root:hover {
+    background-color: transparent;
+  }
+}
+.MuiIconButton-edgeStart {
+  margin-left: -12px;
+}
+.MuiIconButton-sizeSmall.MuiIconButton-edgeStart {
+  margin-left: -3px;
+}
+.MuiIconButton-edgeEnd {
+  margin-right: -12px;
+}
+.MuiIconButton-sizeSmall.MuiIconButton-edgeEnd {
+  margin-right: -3px;
+}
+.MuiIconButton-colorInherit {
+  color: inherit;
+}
+.MuiIconButton-colorPrimary {
+  color: #3f51b5;
+}
+.MuiIconButton-colorPrimary:hover {
+  background-color: rgba(63, 81, 181, 0.08);
+}
+@media (hover: none) {
+  .MuiIconButton-colorPrimary:hover {
+    background-color: transparent;
+  }
+}
+.MuiIconButton-colorSecondary {
+  color: #f50057;
+}
+.MuiIconButton-colorSecondary:hover {
+  background-color: rgba(245, 0, 87, 0.08);
+}
+@media (hover: none) {
+  .MuiIconButton-colorSecondary:hover {
+    background-color: transparent;
+  }
+}
+.MuiIconButton-sizeSmall {
+  padding: 3px;
+  font-size: 1.125rem;
+}
+.MuiIconButton-label {
+  width: 100%;
+  display: flex;
+  align-items: inherit;
+  justify-content: inherit;
+}
+</style><style data-jss="" data-meta="makeStyles">
+.jss65 {
+  padding: 5px;
+}
+</style><style data-jss="" data-meta="MuiButton">
+.MuiButton-root {
+  color: rgba(0, 0, 0, 0.87);
+  padding: 6px 16px;
+  font-size: 0.875rem;
+  min-width: 64px;
+  box-sizing: border-box;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 1.75;
+  border-radius: 4px;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+}
+.MuiButton-root:hover {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.08);
+}
+.MuiButton-root.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26);
+}
+@media (hover: none) {
+  .MuiButton-root:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-root:hover.Mui-disabled {
+  background-color: transparent;
+}
+.MuiButton-label {
+  width: 100%;
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+}
+.MuiButton-text {
+  padding: 6px 8px;
+}
+.MuiButton-textPrimary {
+  color: #3f51b5;
+}
+.MuiButton-textPrimary:hover {
+  background-color: rgba(63, 81, 181, 0.08);
+}
+@media (hover: none) {
+  .MuiButton-textPrimary:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-textSecondary {
+  color: #f50057;
+}
+.MuiButton-textSecondary:hover {
+  background-color: rgba(245, 0, 87, 0.08);
+}
+@media (hover: none) {
+  .MuiButton-textSecondary:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-outlined {
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  padding: 5px 16px;
+}
+.MuiButton-outlined.Mui-disabled {
+  border: 1px solid rgba(0, 0, 0, 0.26);
+}
+.MuiButton-outlinedPrimary {
+  color: #3f51b5;
+  border: 1px solid rgba(63, 81, 181, 0.5);
+}
+.MuiButton-outlinedPrimary:hover {
+  border: 1px solid #3f51b5;
+  background-color: rgba(63, 81, 181, 0.08);
+}
+@media (hover: none) {
+  .MuiButton-outlinedPrimary:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-outlinedSecondary {
+  color: #f50057;
+  border: 1px solid rgba(245, 0, 87, 0.5);
+}
+.MuiButton-outlinedSecondary:hover {
+  border: 1px solid #f50057;
+  background-color: rgba(245, 0, 87, 0.08);
+}
+.MuiButton-outlinedSecondary.Mui-disabled {
+  border: 1px solid rgba(0, 0, 0, 0.26);
+}
+@media (hover: none) {
+  .MuiButton-outlinedSecondary:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-contained {
+  color: rgba(0, 0, 0, 0.87);
+  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 3px 1px -2px rgba(0,0,0,0.12);
+  background-color: #e0e0e0;
+}
+.MuiButton-contained.Mui-focusVisible {
+  box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);
+}
+.MuiButton-contained:active {
+  box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);
+}
+.MuiButton-contained.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26);
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0.12);
+}
+.MuiButton-contained:hover {
+  background-color: #d5d5d5;
+}
+@media (hover: none) {
+  .MuiButton-contained:hover {
+    background-color: #e0e0e0;
+  }
+}
+.MuiButton-contained:hover.Mui-disabled {
+  background-color: rgba(0, 0, 0, 0.12);
+}
+.MuiButton-containedPrimary {
+  color: #fff;
+  background-color: #3f51b5;
+}
+.MuiButton-containedPrimary:hover {
+  background-color: #303f9f;
+}
+@media (hover: none) {
+  .MuiButton-containedPrimary:hover {
+    background-color: #3f51b5;
+  }
+}
+.MuiButton-containedSecondary {
+  color: #fff;
+  background-color: #f50057;
+}
+.MuiButton-containedSecondary:hover {
+  background-color: #c51162;
+}
+@media (hover: none) {
+  .MuiButton-containedSecondary:hover {
+    background-color: #f50057;
+  }
+}
+.MuiButton-colorInherit {
+  color: inherit;
+  border-color: currentColor;
+}
+.MuiButton-sizeSmall {
+  padding: 4px 8px;
+  font-size: 0.8125rem;
+}
+.MuiButton-sizeLarge {
+  padding: 8px 24px;
+  font-size: 0.9375rem;
+}
+.MuiButton-fullWidth {
+  width: 100%;
+}
+</style><style data-jss="" data-meta="makeStyles">
+.jss1 {
+  color: #ffffff;
+  margin: 8px 4px 8px 0;
+  padding: 7px 0;
+  background: #00A7E5;
+  line-height: 12px;
+  text-transform: none;
+}
+.jss1:hover {
+  filter: brightness(96%);
+}
+.jss2 {
+  color: #ffffff;
+  margin: 8px 0;
+  padding: 7px 0;
+  background: #00A7E5;
+  line-height: 12px;
+  text-transform: none;
+}
+.jss2:hover {
+  filter: brightness(96%);
+}
+.jss3 {
+  color: #ffffff;
+  margin: 8px 8px 8px 12px;
+  padding: 7px 8px 7px 8px;
+  background: #00A7E5;
+  line-height: 12px;
+  text-transform: none;
+}
+.jss3:hover {
+  filter: brightness(96%);
+}
+.jss4 {
+  color: #ffffff;
+  margin: 8px 0 8px 8px;
+  padding: 7px 8px 7px 8px;
+  background: #00A7E5;
+  line-height: 12px;
+  text-transform: none;
+}
+.jss4:hover {
+  filter: brightness(96%);
+}
+</style><style data-jss="" data-meta="MuiFormControl">
+.MuiFormControl-root {
+  border: 0;
+  margin: 0;
+  display: inline-flex;
+  padding: 0;
+  position: relative;
+  min-width: 0;
+  flex-direction: column;
+  vertical-align: top;
+}
+.MuiFormControl-marginNormal {
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+.MuiFormControl-marginDense {
+  margin-top: 8px;
+  margin-bottom: 4px;
+}
+.MuiFormControl-fullWidth {
+  width: 100%;
+}
+</style><style data-jss="" data-meta="MuiTextField">
+
+</style><style data-jss="" data-meta="makeStyles">
+.jss5 {
+  left: -8px;
+  position: relative;
+  margin-top: 6px;
+  flex-direction: row;
+}
+.jss6 {
+  margin: 2px;
+}
+.jss7 {
+  padding: 2px 7px;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  text-overflow: ellipsis;
+}
+.jss8 {
+  margin: auto 0px auto 6px;
+  padding: 0px;
+}
+.jss9 {
+  font-size: 20px;
+  visibility: hidden;
+  margin-left: 8px;
+  white-space: nowrap;
+  text-overflow: clip;
+}
+</style><script charset="utf-8" src="./Exercise_ Lists _ Kaggle_files/chunk-14-6c37c578a89616d75bdf.js"></script><script id="google-recaptcha-v3" src="./Exercise_ Lists _ Kaggle_files/api.js"></script><link id="dynamic-favicon" rel="shortcut icon" href="https://www.kaggle.com/favicon.ico"></head><body data-new-gr-c-s-check-loaded="14.1027.0" data-gr-ext-installed="" style=""><div id="root"><div style="--mdc-theme-on-primary:#fff; --mdc-theme-on-surface:rgba(0, 0, 0, 0.87); --mdc-theme-text-primary-on-background:rgba(0, 0, 0, 0.87); --mdc-theme-text-secondary-on-background:rgba(0, 0, 0, 0.54); --mdc-theme-text-hint-on-background:rgba(0, 0, 0, 0.38); --mdc-theme-text-disabled-on-background:rgba(0, 0, 0, 0.38); --mdc-theme-text-icon-on-background:rgba(0, 0, 0, 0.38); --mdc-theme-primary:#20BEFF; --mdc-theme-error:#F58B8A; --mdc-theme-background:#F8F8F8; --mdc-theme-surface:#fff; --mdc-theme-primary-bg:#20BEFF; --mdc-theme-secondary-bg:#919294;"><div tabindex="-1" role="group" style="outline: none; height: inherit;"><div aria-live="assertive" aria-atomic="true" aria-hidden="true" class="sc-puGnR bETogt mdc-snackbar mdc-snackbar--leading"><div class="mdc-snackbar__surface"><div role="status" aria-live="polite" class="mdc-snackbar__label"><div style="display: none;"></div></div><div class="mdc-snackbar__actions"></div></div></div><div class="sc-pzYib sc-qPLKk jSwreu"><div class="sc-qXHHN kITAEN"><div class="sc-pZaHX hCKhjF"><div class="sc-oTBUA jseVVZ"><button aria-label="menu" class="sc-AxgMl jShmvg google-material-icons">menu</button></div><a href="https://www.kaggle.com/adastraz1/exercise-lists/edit#site-content" class="sc-pReKu eehIqb">Skip to<br>content</a><div class="sc-pbxSd jHwqcJ"><a href="https://www.kaggle.com/"><img src="./Exercise_ Lists _ Kaggle_files/site-logo.png" alt="Kaggle" class="sc-pJkiN kSIOTQ"></a></div></div><div class="sc-ptDSg eYGQDi"><div class="sc-qPwPv hfpHL"><div class="sc-pscky cYZqjl"><div class="sc-pRtAn iEXtdO"><i sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI eidhRm sc-pciEQ dyMLtf">search</i><input placeholder="Search" aria-label="Search" class="sc-pZOBi gTABHR" value=""></div></div></div><ul class="km-list"><li class="sc-fzoaKM hNuJKS"><div class="sc-fzomuh bSASvE sc-pcJja lazhog"><a class="sc-fzowVh equHBw" href="https://www.kaggle.com/"><i emphasis="low" sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI dsqNyx sc-pliRl hJMUmJ">explore</i><p class="sc-fzqARJ sc-fzqNqU islgeL" style="padding-left: 20px;">Home</p></a></div></li><li class="sc-fzoaKM hNuJKS"><div class="sc-fzomuh bSASvE sc-pcJja lazhog"><a class="sc-fzowVh equHBw" href="https://www.kaggle.com/competitions"><i emphasis="low" sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI dsqNyx sc-pliRl hJMUmJ">emoji_events</i><p class="sc-fzqARJ sc-fzqNqU islgeL" style="padding-left: 20px;">Competitions</p></a></div></li><li class="sc-fzoaKM hNuJKS"><div class="sc-fzomuh bSASvE sc-pcJja lazhog"><a class="sc-fzowVh equHBw" href="https://www.kaggle.com/datasets"><i emphasis="low" sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI dsqNyx sc-pliRl hJMUmJ">table_chart</i><p class="sc-fzqARJ sc-fzqNqU islgeL" style="padding-left: 20px;">Datasets</p></a></div></li><li class="sc-fzoaKM hNuJKS"><div class="sc-fzomuh cddVaI sc-pcJja lazhog"><a class="sc-fzowVh equHBw" href="https://www.kaggle.com/code"><i emphasis="high" sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI eidhRm sc-pliRl hJMUmJ">code</i><p class="sc-fzqARJ sc-fzqNqU lcuOYI" style="padding-left: 20px;">Code</p><div class="sc-oUoif jRPcwF"></div></a></div></li><li class="sc-fzoaKM hNuJKS"><div class="sc-fzomuh bSASvE sc-pcJja lazhog"><a class="sc-fzowVh equHBw" href="https://www.kaggle.com/discussion"><i emphasis="low" sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI dsqNyx sc-pliRl hJMUmJ">comment</i><p class="sc-fzqARJ sc-fzqNqU islgeL" style="padding-left: 20px;">Discussions</p></a></div></li><li class="sc-fzoaKM hNuJKS"><div class="sc-fzomuh bSASvE sc-pcJja lazhog"><a class="sc-fzowVh equHBw" href="https://www.kaggle.com/learn"><i emphasis="low" sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI dsqNyx sc-pliRl hJMUmJ">school</i><p class="sc-fzqARJ sc-fzqNqU islgeL" style="padding-left: 20px;">Courses</p></a></div></li><li class="sc-fzoaKM hNuJKS"><div class="sc-fzomuh bSASvE sc-pcJja lazhog"><a class="sc-fzowVh equHBw" href="https://www.kaggle.com/adastraz1/exercise-lists/edit#"><i emphasis="low" sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI dsqNyx sc-pliRl hJMUmJ">expand_more</i><p class="sc-fzqARJ sc-fzqNqU islgeL" style="padding-left: 20px;">More</p></a></div></li></ul></div><div class="sc-pspzH eyABor"><div><div class="sc-fzokvW hDxHTx" style="margin-bottom: 24px;"></div><span class="sc-fznzOf sc-fznMnq sc-pQdCa cVCxzb">Recently Viewed</span><div role="list"><li aria-label="Python" class="sc-fzoaKM hNuJKS"><div class="sc-fzomuh bSASvE sc-pXZzD hxFAsn"><a class="sc-fzowVh equHBw" href="https://www.kaggle.com/learn/python?rvi=1" title="Python"><div class="sc-pczax ehPoOc"><img src="./Exercise_ Lists _ Kaggle_files/default-learn.png" alt="Thumbnail for Python" class="sc-pktCe dSKYub"></div><p class="sc-fzoyTs sc-fzoNJl sc-oUDcU ieWfHw">Python</p></a></div></li><li aria-label="Exercise: Lists" class="sc-fzoaKM hNuJKS"><div class="sc-fzomuh bSASvE sc-pXZzD hxFAsn"><a class="sc-fzowVh equHBw" href="https://www.kaggle.com/adastraz1/exercise-lists?rvi=1" title="Exercise: Lists"><div class="sc-pczax ehPoOc"><img src="./Exercise_ Lists _ Kaggle_files/5119098-kg.png" alt="Thumbnail for Exercise: Lists" class="sc-pktCe dSKYub"></div><p class="sc-fzoyTs sc-fzoNJl sc-oUDcU ieWfHw">Exercise: Lists</p></a></div></li><li aria-label="Lists" class="sc-fzoaKM hNuJKS"><div class="sc-fzomuh bSASvE sc-pXZzD hxFAsn"><a class="sc-fzowVh equHBw" href="https://www.kaggle.com/colinmorris/lists?rvi=1" title="Lists"><div class="sc-pczax ehPoOc"><img src="./Exercise_ Lists _ Kaggle_files/473824-kg.jpg" alt="Thumbnail for Lists" class="sc-pktCe dSKYub"></div><p class="sc-fzoyTs sc-fzoNJl sc-oUDcU ieWfHw">Lists</p></a></div></li><li aria-label="House Prices - Advanced Regression Techniques" class="sc-fzoaKM hNuJKS"><div class="sc-fzomuh bSASvE sc-pXZzD hxFAsn"><a class="sc-fzowVh equHBw" href="https://www.kaggle.com/c/house-prices-advanced-regression-techniques?rvi=1" title="House Prices - Advanced Regression Techniques"><div class="sc-pczax ehPoOc"><img src="./Exercise_ Lists _ Kaggle_files/thumb76_76.png" alt="Thumbnail for House Prices - Advanced Regression Techniques" class="sc-pktCe dSKYub"></div><p class="sc-fzoyTs sc-fzoNJl sc-oUDcU ieWfHw">House Prices - Advanced Regression Techniques</p></a></div></li><li aria-label="Natural Language Processing with Disaster Tweets" class="sc-fzoaKM hNuJKS"><div class="sc-fzomuh bSASvE sc-pXZzD hxFAsn"><a class="sc-fzowVh equHBw" href="https://www.kaggle.com/c/nlp-getting-started?rvi=1" title="Natural Language Processing with Disaster Tweets"><div class="sc-pczax ehPoOc"><img src="./Exercise_ Lists _ Kaggle_files/nlp-getting-started.png" alt="Thumbnail for Natural Language Processing with Disaster Tweets" class="sc-pktCe dSKYub"></div><p class="sc-fzoyTs sc-fzoNJl sc-oUDcU ieWfHw">Natural Language Processing with Disaster Tweets</p></a></div></li></div></div></div></div><div class="sc-pAyMl fkDqVf"><div class="mdc-menu-surface--anchor"><button class="sc-kHzJJj dzTlYZ"><div class="sc-jxKmCM bZExpg"><i emphasis="high" sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI eidhRm sc-jDbEhR hPgMYd">auto_awesome_motion</i><div color="#FAE041" class="sc-jHNiGu fsSdOj">1</div></div><p class="sc-fzqARJ sc-fzqNqU sc-kMBjom gZWmQz">View Active Events</p></button></div></div></div><div class="sc-jTwuPi kNdYsz"><div class="sc-jYNMun kxwglx"><div class="sc-pZaHX hCKhjF"><div class="sc-oTBUA jseVVZ"><button aria-label="menu" class="sc-AxgMl jShmvg google-material-icons">menu</button></div><a href="https://www.kaggle.com/adastraz1/exercise-lists/edit#site-content" class="sc-pReKu eehIqb">Skip to<br>content</a><div class="sc-pbxSd jHwqcJ"><a href="https://www.kaggle.com/"><img src="./Exercise_ Lists _ Kaggle_files/site-logo.png" alt="Kaggle" class="sc-pJkiN kSIOTQ"></a></div></div></div><div class="sc-ptDSg eYGQDi"><div class="sc-qPwPv hfpHL"><div class="sc-pscky cYZqjl"><div class="sc-pRtAn iEXtdO"><i sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI eidhRm sc-pciEQ dyMLtf">search</i><input placeholder="Search" aria-label="Search" class="sc-pZOBi gTABHR" value=""></div></div></div><ul class="km-list"><li class="sc-fzoaKM hNuJKS"><div class="sc-fzomuh bSASvE sc-pcJja lazhog"><a class="sc-fzowVh equHBw" href="https://www.kaggle.com/"><i emphasis="low" sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI dsqNyx sc-pliRl hJMUmJ">explore</i><p class="sc-fzqARJ sc-fzqNqU islgeL" style="padding-left: 20px;">Home</p></a></div></li><li class="sc-fzoaKM hNuJKS"><div class="sc-fzomuh bSASvE sc-pcJja lazhog"><a class="sc-fzowVh equHBw" href="https://www.kaggle.com/competitions"><i emphasis="low" sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI dsqNyx sc-pliRl hJMUmJ">emoji_events</i><p class="sc-fzqARJ sc-fzqNqU islgeL" style="padding-left: 20px;">Competitions</p></a></div></li><li class="sc-fzoaKM hNuJKS"><div class="sc-fzomuh bSASvE sc-pcJja lazhog"><a class="sc-fzowVh equHBw" href="https://www.kaggle.com/datasets"><i emphasis="low" sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI dsqNyx sc-pliRl hJMUmJ">table_chart</i><p class="sc-fzqARJ sc-fzqNqU islgeL" style="padding-left: 20px;">Datasets</p></a></div></li><li class="sc-fzoaKM hNuJKS"><div class="sc-fzomuh cddVaI sc-pcJja lazhog"><a class="sc-fzowVh equHBw" href="https://www.kaggle.com/code"><i emphasis="high" sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI eidhRm sc-pliRl hJMUmJ">code</i><p class="sc-fzqARJ sc-fzqNqU lcuOYI" style="padding-left: 20px;">Code</p><div class="sc-oUoif jRPcwF"></div></a></div></li><li class="sc-fzoaKM hNuJKS"><div class="sc-fzomuh bSASvE sc-pcJja lazhog"><a class="sc-fzowVh equHBw" href="https://www.kaggle.com/discussion"><i emphasis="low" sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI dsqNyx sc-pliRl hJMUmJ">comment</i><p class="sc-fzqARJ sc-fzqNqU islgeL" style="padding-left: 20px;">Discussions</p></a></div></li><li class="sc-fzoaKM hNuJKS"><div class="sc-fzomuh bSASvE sc-pcJja lazhog"><a class="sc-fzowVh equHBw" href="https://www.kaggle.com/learn"><i emphasis="low" sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI dsqNyx sc-pliRl hJMUmJ">school</i><p class="sc-fzqARJ sc-fzqNqU islgeL" style="padding-left: 20px;">Courses</p></a></div></li><li class="sc-fzoaKM hNuJKS"><div class="sc-fzomuh bSASvE sc-pcJja lazhog"><a class="sc-fzowVh equHBw" href="https://www.kaggle.com/adastraz1/exercise-lists/edit#"><i emphasis="low" sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI dsqNyx sc-pliRl hJMUmJ">expand_more</i><p class="sc-fzqARJ sc-fzqNqU islgeL" style="padding-left: 20px;">More</p></a></div></li></ul></div><div><div class="sc-fzokvW hDxHTx" style="margin-bottom: 24px;"></div><span class="sc-fznzOf sc-fznMnq sc-pQdCa cVCxzb">Recently Viewed</span><div role="list"><li aria-label="Python" class="sc-fzoaKM hNuJKS"><div class="sc-fzomuh bSASvE sc-pXZzD hxFAsn"><a class="sc-fzowVh equHBw" href="https://www.kaggle.com/learn/python?rvi=1" title="Python"><div class="sc-pczax ehPoOc"><img src="./Exercise_ Lists _ Kaggle_files/default-learn.png" alt="Thumbnail for Python" class="sc-pktCe dSKYub"></div><p class="sc-fzoyTs sc-fzoNJl sc-oUDcU ieWfHw">Python</p></a></div></li><li aria-label="Exercise: Lists" class="sc-fzoaKM hNuJKS"><div class="sc-fzomuh bSASvE sc-pXZzD hxFAsn"><a class="sc-fzowVh equHBw" href="https://www.kaggle.com/adastraz1/exercise-lists?rvi=1" title="Exercise: Lists"><div class="sc-pczax ehPoOc"><img src="./Exercise_ Lists _ Kaggle_files/5119098-kg.png" alt="Thumbnail for Exercise: Lists" class="sc-pktCe dSKYub"></div><p class="sc-fzoyTs sc-fzoNJl sc-oUDcU ieWfHw">Exercise: Lists</p></a></div></li><li aria-label="Lists" class="sc-fzoaKM hNuJKS"><div class="sc-fzomuh bSASvE sc-pXZzD hxFAsn"><a class="sc-fzowVh equHBw" href="https://www.kaggle.com/colinmorris/lists?rvi=1" title="Lists"><div class="sc-pczax ehPoOc"><img src="./Exercise_ Lists _ Kaggle_files/473824-kg.jpg" alt="Thumbnail for Lists" class="sc-pktCe dSKYub"></div><p class="sc-fzoyTs sc-fzoNJl sc-oUDcU ieWfHw">Lists</p></a></div></li><li aria-label="House Prices - Advanced Regression Techniques" class="sc-fzoaKM hNuJKS"><div class="sc-fzomuh bSASvE sc-pXZzD hxFAsn"><a class="sc-fzowVh equHBw" href="https://www.kaggle.com/c/house-prices-advanced-regression-techniques?rvi=1" title="House Prices - Advanced Regression Techniques"><div class="sc-pczax ehPoOc"><img src="./Exercise_ Lists _ Kaggle_files/thumb76_76.png" alt="Thumbnail for House Prices - Advanced Regression Techniques" class="sc-pktCe dSKYub"></div><p class="sc-fzoyTs sc-fzoNJl sc-oUDcU ieWfHw">House Prices - Advanced Regression Techniques</p></a></div></li><li aria-label="Natural Language Processing with Disaster Tweets" class="sc-fzoaKM hNuJKS"><div class="sc-fzomuh bSASvE sc-pXZzD hxFAsn"><a class="sc-fzowVh equHBw" href="https://www.kaggle.com/c/nlp-getting-started?rvi=1" title="Natural Language Processing with Disaster Tweets"><div class="sc-pczax ehPoOc"><img src="./Exercise_ Lists _ Kaggle_files/nlp-getting-started.png" alt="Thumbnail for Natural Language Processing with Disaster Tweets" class="sc-pktCe dSKYub"></div><p class="sc-fzoyTs sc-fzoNJl sc-oUDcU ieWfHw">Natural Language Processing with Disaster Tweets</p></a></div></li></div></div><div class="sc-fzokvW hDxHTx"></div><div class="mdc-menu-surface--anchor"><button class="sc-kHzJJj dzTlYZ"><div class="sc-jxKmCM bZExpg"><i emphasis="high" sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI eidhRm sc-jDbEhR hPgMYd">auto_awesome_motion</i><div color="#FAE041" class="sc-jHNiGu fsSdOj">1</div></div><p class="sc-fzqARJ sc-fzqNqU sc-kMBjom gZWmQz">View Active Events</p></button></div></div><div data-testid="searchContainer" class="sc-jXqrPq bFoChK"><div></div><div class="sc-kcsSsV dJdcEj"><div></div></div></div><div id="site-content" class="sc-pITNg hgIhAR"><div class="sc-pQsrT bsHhNW"></div><div data-testid="notebook-editor-render-tid" class="AppView-sc-16eb2j kDpcJw"><div class="Header_Body-sc-rbwidn bjkOVk"><div></div><div class="Header_MainHeader-sc-uoui3c bAUhOL"><div class="Header_MenuIconWrapper-sc-izyttq fbbxsT"><button aria-label="menu" class="sc-AxgMl jShmvg google-material-icons">menu</button></div><div class="Header_MenuWrapper-sc-19vw76b cIQeup"><div class="Header_TitleWrapper-sc-qrpum5 kHSLeG"><div class="MuiFormControl-root jss5" aria-describedby="component-error-text"><div class="TitleInput_ShrinkingTitleWrapper-sc-163ctwl jUscsk"><div class="TitleInput_TextFieldWrapper-sc-1dch7vu hKVEtE"><div class="MuiFormControl-root MuiTextField-root sc-kIpRaO lmNipk jss6 MuiFormControl-fullWidth"><div class="MuiInputBase-root MuiInput-root MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl"><input aria-invalid="false" autocomplete="off" class="MuiInputBase-input MuiInput-input jss7" id="notebook-title-input" type="text" maxlength="50" value="Exercise: Lists"></div></div></div><div class="jss9">Exercise: Lists_</div></div></div><div class="SaveStatus_Body-sc-1fefpx dzhDcb"></div></div><div class="Header_MenuBarWrapper-sc-ebv0r9 bDuvpp"><div class="EditorMenuBar_Body-sc-5mokqd fschzS"><button class="MuiButtonBase-root MuiButton-root sc-kNHiFT gkexCp MuiButton-text" tabindex="0" type="button"><span class="MuiButton-label">File</span></button><button class="MuiButtonBase-root MuiButton-root sc-kNHiFT gkexCp MuiButton-text" tabindex="0" type="button"><span class="MuiButton-label">Edit</span></button><button class="MuiButtonBase-root MuiButton-root sc-kNHiFT gkexCp MuiButton-text" tabindex="0" type="button"><span class="MuiButton-label">View</span></button><button class="MuiButtonBase-root MuiButton-root sc-kNHiFT gkexCp MuiButton-text" tabindex="0" type="button"><span class="MuiButton-label">Run</span></button><button class="MuiButtonBase-root MuiButton-root sc-kNHiFT gkexCp MuiButton-text" tabindex="0" type="button"><span class="MuiButton-label">Add-ons</span></button><button class="MuiButtonBase-root MuiButton-root sc-kNHiFT gkexCp MuiButton-text" tabindex="0" type="button"><span class="MuiButton-label">Help</span></button></div></div></div><div class="ShareButton_ButtonWrapper-sc-asiu8k dPlevZ"><button class="sc-psCJM fTDvAv ShareButton_StyledButton-sc-1ewahb4 jqkhSA" tabindex="0" role="button"><i color="#202124" sizevalue="18px" class="rmwc-icon google-material-icons sc-AxheI eidcZB">people</i><span class="sc-fzoxKX sc-fzoKki cyTXUp">Share</span></button></div><div class="sc-jCKJyL jiDzRP"><div class="sc-pkIrX jYpsOc" data-tip="true" data-for="tooltip_components_327a9dd9-838b-462c-96d0-71c55fc64f74" currentitem="false" style="vertical-align: top;"><button class="sc-psCJM duQXbd sc-jIeajc fnkLKu" tabindex="0" role="button"><i color="#FFFFFF" sizevalue="18px" class="rmwc-icon google-material-icons sc-AxheI efvvEO">update</i><span class="sc-fzoxKX sc-fzoKki cyTXUp">Save Version</span></button><div class="__react_component_tooltip place-bottom type-dark " id="tooltip_components_327a9dd9-838b-462c-96d0-71c55fc64f74" data-id="tooltip"><div class="sc-ptdsS exjphE">Save a new version of your work.</div></div></div><div class="sc-pkIrX jYpsOc" data-tip="true" data-for="tooltip_components_94b57bdc-b919-4ec2-ae9e-32ceee55aab1" currentitem="false" style="vertical-align: top;"><button class="sc-psCJM mBUMG sc-jNvrOh fYDoVs" tabindex="0" role="button"><span class="sc-fzoxKX sc-fzoKki cyTXUp">0</span></button><div class="__react_component_tooltip place-bottom type-dark " id="tooltip_components_94b57bdc-b919-4ec2-ae9e-32ceee55aab1" data-id="tooltip"><div class="sc-ptdsS exjphE">Show versions</div></div></div></div><div class="Header_ToggleSidebarWrapper-sc-1lxmrkg kwgZzS"><button aria-label="Toggle sidebar visibility" title="Toggle sidebar visibility" class="sc-AxgMl jShmvg google-material-icons">last_page</button></div></div></div><div class="App_Body-sc-16c8j4p hxOBfv"><div class="Layout_Body-sc-6piylv bXAYPy"><div mode="column" class="Layout_BodyInner-sc-61tklw kCOBvM"><div class="Pane-sc-1eb69nk kVIgZB"><div class="LayoutContainer_Body-sc-1ulzvo cAISJ"><div class="ToolbarContainer_Body-sc-2h8iu7 fhvgBU"><div class="ToolbarActionsLeft_Body-sc-gd13f fipPkk"><button class="sc-pjUyM ToolbarAction_Body-sc-ybo8q3 Xnsli" title="Add cell"><i sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI eidhRm">add</i></button><button class="sc-pjUyM ToolbarAction_Body-sc-ybo8q3 Xnsli" title="Delete cell"><i sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI eidhRm">delete</i></button><div class="ToolbarActionsLeft_ToolbarSeparator-sc-1jmle0q SoAyK"></div><button class="sc-pjUyM ToolbarAction_Body-sc-ybo8q3 Xnsli" title="Cut cell"><i sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI eidhRm">content_cut</i></button><button class="sc-pjUyM ToolbarAction_Body-sc-ybo8q3 Xnsli" title="Copy cell"><i sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI eidhRm">content_copy</i></button><button class="sc-pjUyM ToolbarAction_Body-sc-ybo8q3 Xnsli" title="Paste cell"><i sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI eidhRm">content_paste</i></button><div class="ToolbarActionsLeft_ToolbarSeparator-sc-1jmle0q SoAyK"></div><button class="sc-pjUyM ToolbarAction_Body-sc-ybo8q3 Xnsli" title="Run current cell"><i sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI eidhRm">play_arrow</i></button><button class="sc-pjUyM ToolbarAction_Body-sc-ybo8q3 Xnsli labeled" title="Run all"><i sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI eidhRm">fast_forward</i><div class="ToolbarAction_Label-sc-1qf3dyz hxHqoX">Run All</div></button><div class="ToolbarActionsLeft_ToolbarSeparator-sc-1jmle0q SoAyK"></div><div class="mdc-menu-surface--anchor"><button class="sc-psCJM kvNGRI" tabindex="0" role="button"><span class="sc-fzoxKX sc-fzoKki cyTXUp">Markdown</span><i color="#202124" sizevalue="18px" class="rmwc-icon google-material-icons sc-AxheI eidcZB">arrow_drop_down</i></button></div></div><div class="ToolbarContainer_Spacer-sc-oz7wcc bGWfix"></div><button class="sc-pjUyM Status_Body-sc-15eqbxr bJXUeI"><div class="SessionStatusIndicator_Body-sc-iyymxk iCUGVE"><div class="SessionStatusIndicator_StatusLeft-sc-106w180 dbJATZ"><i color="#42E3BB" sizevalue="1.125em" title="Running" verticalalign="-0.125em" class="rmwc-icon google-material-icons sc-AxheI gbAcan">circle</i><div class="SessionStatusIndicator_StatusTitle-sc-10lqtkn fLiDIV">Draft Session</div></div><div class="SessionStatusIndicator_TimerBody-sc-g3ej6t eQpXMh">(10m)</div></div><div title="Disk Space Usage" class="sc-prQBl jeGZjb"><div class="sc-qQkIG gGproH">HDD</div><div class="sc-qYgLf hNZirj"><div value="46190592" max="21003583488" class="sc-pAXKH kunPSl"></div></div></div><div class="Status_MenuSeparator-sc-p0dmmg iZytIq"></div><div title="CPU Usage" class="sc-prQBl jeGZjb"><div class="sc-qQkIG gGproH">CPU</div><div class="sc-qYgLf hNZirj"><div value="0" max="100" class="sc-pAXKH dGZbRh"></div></div></div><div class="Status_MenuSeparator-sc-p0dmmg iZytIq"></div><div title="RAM Usage" class="sc-prQBl jeGZjb"><div class="sc-qQkIG gGproH">RAM</div><div class="sc-qYgLf hNZirj"><div value="318656512" max="17179869184" class="sc-pAXKH KOjeu"></div></div></div></button><div class="ToolbarActionsRight_Body-sc-1muxuky eJnDPK"><button class="sc-pjUyM ToolbarAction_Body-sc-ybo8q3 Xnsli" title="Stop session"><i sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI eidhRm">power_settings_new</i></button><button class="sc-pjUyM ToolbarAction_Body-sc-ybo8q3 Xnsli" title="Factory reset"><i sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI eidhRm">loop</i></button><button class="sc-pjUyM ToolbarAction_Body-sc-ybo8q3 Xnsli" title="More"><i sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI eidhRm">more_vert</i></button></div></div><div class="Editor_Body-sc-1bhm27d bYniFa"><div class="sc-qOuyG bjGLxr"></div><div class="SessionlessEditor_FrameContainer-sc-1qf26to bwLGkM" style="display: flex;"><iframe name="" class="" src="./Exercise_ Lists _ Kaggle_files/jupyterlab-index-84814d990665503fc8fd2b17e54c7fe4.html"></iframe></div><div aria-live="assertive" aria-atomic="true" aria-hidden="true" class="sc-puGnR bETogt mdc-snackbar--open mdc-snackbar mdc-snackbar--leading"><div class="mdc-snackbar__surface"><div role="status" aria-live="polite" class="mdc-snackbar__label">Session started.<div style="display: none;"></div></div><div class="mdc-snackbar__actions"></div></div></div></div><div class="sc-qQwsb kQHbNh ProgressSnackbarContainer_ProgressSnackbarWrapper-sc-avjqt1 gcwJqC"><div class="sc-qYRsW htjyTI"><div _size="xlarge" class="rmwc-circular-progress rmwc-circular-progress--size-xlarge rmwc-circular-progress--indeterminate rmwc-circular-progress--thickerstroke"><svg class="rmwc-circular-progress__circle" viewBox="0 0 48 48"><circle class="rmwc-circular-progress__path" cx="24" cy="24" r="20"></circle></svg></div></div><div class="sc-pJiCZ cDEQuc"><div class="sc-pRdeG dscwUo">Creating Save &amp; Run All Version</div><div class="sc-pYZcj bkOXAM"></div></div><div class="sc-oTDAo iPLCIH"></div><div class="sc-pbzxR ZAcpU"><button aria-label="close" class="sc-AxgMl jShmvg sc-pjtZy kGfuID google-material-icons">close</button><button class="sc-psCJM hqBjyr" tabindex="0" role="button"><span class="sc-fzoxKX sc-fzoKki cyTXUp">Stop</span></button></div></div></div></div></div></div><div class="Sidebar_Body-sc-14r4g35 dEilyb"><div class="sc-pZzGt eDxwsZ" style="position: relative; flex-basis: 300px; display: flex; flex-direction: row; max-height: 100%; height: 100%;"><div direction="horizontal" class="sc-oTcWe gEolnD"><div role="separator" aria-orientation="horizontal"></div></div><div style="width: 300px;"><div class="Sidebar_ScrollableArea-sc-1i9c81d fIpjJt"><div class="SidebarPane_Body-sc-1owv1gk cvyfha"><div role="button" class="SidebarPane_ItemHeader-sc-13ydw5o ikWYWc"><div class="SidebarPane_TitleWrapper-sc-1mt9ft2 fXoUUG">Data</div><div class="SidebarPane_ButtonWrapper-sc-1siykkc bOIgBs"><button class="sc-psCJM koMMXk" tabindex="0" role="button"><i color="#202124" sizevalue="18px" class="rmwc-icon google-material-icons sc-AxheI eidcZB">add</i><span class="sc-fzoxKX sc-fzoKki cyTXUp">Add data</span></button></div><div class="SidebarPane_ChevronWrapper-sc-qm9hj3 yjdaM"><button class="MuiButtonBase-root MuiIconButton-root jss65" tabindex="0" type="button" title="Expand Data box" style="float: right;"><span class="MuiIconButton-label"><i sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI eidhRm">keyboard_arrow_down</i></span><span class="MuiTouchRipple-root"></span></button></div></div></div><div class="SidebarPane_Body-sc-1owv1gk cvyfha"><div role="button" class="SidebarPane_ItemHeader-sc-13ydw5o ikWYWc"><div class="SidebarPane_TitleWrapper-sc-1mt9ft2 fXoUUG">Settings</div><div class="SidebarPane_ButtonWrapper-sc-1siykkc bOIgBs"></div><div class="SidebarPane_ChevronWrapper-sc-qm9hj3 yjdaM"><button class="MuiButtonBase-root MuiIconButton-root jss65" tabindex="0" type="button" title="Expand Settings box" style="float: right;"><span class="MuiIconButton-label"><i sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI eidhRm">keyboard_arrow_down</i></span><span class="MuiTouchRipple-root"></span></button></div></div></div><div class="SidebarPane_Body-sc-1owv1gk cvyfha"><div role="button" class="SidebarPane_ItemHeader-sc-13ydw5o ikWYWc"><div class="SidebarPane_TitleWrapper-sc-1mt9ft2 fXoUUG">Code Help</div><div class="SidebarPane_ButtonWrapper-sc-1siykkc bOIgBs"></div><div class="SidebarPane_ChevronWrapper-sc-qm9hj3 yjdaM"><button class="MuiButtonBase-root MuiIconButton-root jss65" tabindex="0" type="button" title="Collapse Code Help box" style="float: right;"><span class="MuiIconButton-label"><i sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI eidhRm">keyboard_arrow_up</i></span><span class="MuiTouchRipple-root"></span></button></div></div><div class="SidebarPane_ItemBody-sc-tqtqts jKIbPu"><div class="Snippets_Body-sc-1qbzaco YZnhV"><div aria-live="assertive" aria-atomic="true" aria-hidden="true" class="sc-oTPjJ cBKFUB mdc-snackbar mdc-snackbar--leading"><div class="mdc-snackbar__surface"><div role="status" aria-live="polite" class="mdc-snackbar__label">Copied!<div style="display: none;"></div></div><div class="mdc-snackbar__actions"><i aria-hidden="true" role="button" tabindex="0" data-mdc-ripple-is-unbounded="true" class="rmwc-icon google-material-icons mdc-snackbar__dismiss mdc-ripple-upgraded--unbounded mdc-ripple-upgraded mdc-snackbar__dismiss mdc-icon-button" style="--mdc-ripple-fg-size:0px; --mdc-ripple-fg-scale:NaN; --mdc-ripple-left:0px; --mdc-ripple-top:0px;">close</i></div></div></div><div class="sc-qcrOD kiRnKH Snippets_TextFieldWrapper-sc-1hz7w7a hIxpYT mdc-ripple-upgraded sc-qcrOD kiRnKH Snippets_TextFieldWrapper-sc-1hz7w7a hIxpYT mdc-ripple-surface mdc-text-field mdc-text-field--upgraded mdc-text-field--outlined mdc-text-field--with-leading-icon"><i class="rmwc-icon google-material-icons mdc-text-field__icon">search</i><input type="text" margin="normal" id="textfield-fbpdq3sbh5" class="mdc-text-field__input" value=""><div class="mdc-notched-outline mdc-notched-outline--upgraded"><div class="mdc-notched-outline__leading"></div><div class="mdc-notched-outline__notch"><label class="mdc-floating-label" for="textfield-fbpdq3sbh5" style="">Find Code Help</label></div><div class="mdc-notched-outline__trailing"></div></div></div><div class="Snippets_Content-sc-1cgyhdq gZTAES"><div>Search for examples of how to do things</div></div></div></div></div></div></div></div></div></div><div class="sc-pZzGt eDxwsZ" style="position: relative; flex-basis: 40px; display: flex; flex-direction: column;"><div direction="vertical" class="sc-oTcWe hdWbGU"><div role="separator" aria-orientation="horizontal"></div></div><div style="height: 40px;"><div class="Terminal_Body-sc-io7fwe byhzQX"><div class="TerminalHeader_Body-sc-1riogjs jbQKPZ"><div class="TerminalHeader_TitleWrapper-sc-bac7xk leLRuM">Console</div><button title="Show console" class="TerminalHeader_TerminalButton-sc-gq97xh TerminalHeader_TerminalTransparentButton-sc-14ic37w iFXBqD"><i sizevalue="20px" class="rmwc-icon google-material-icons sc-AxheI eidglG">keyboard_arrow_up</i></button></div></div></div></div><span></span></div></div><div class="sc-pYNsO gxlJmt"></div><div aria-live="assertive" aria-atomic="true" aria-hidden="true" class="sc-puGnR bETogt mdc-snackbar mdc-snackbar--leading"><div class="mdc-snackbar__surface"><div role="status" aria-live="polite" class="mdc-snackbar__label"><div style="display: none;"></div></div><div class="mdc-snackbar__actions"></div></div></div></div></div></div><div id="modal-root"></div><script nonce="" src="./Exercise_ Lists _ Kaggle_files/notebook-3f72c125e4e86c052f58.js"></script><div aria-hidden="true" class="mdc-menu sc-fzonjX geSBQE mdc-menu-surface"><div role="menu" class="mdc-list mdc-menu__items mdc-list"><div role="menuitem" tabindex="0" class="sc-fzoOEf cNOqzS mdc-ripple-upgraded sc-fzoOEf cNOqzS mdc-list-item"><div class="sc-fzppip logiML"><p class="sc-fzoyTs sc-fzoNJl dZKahk">Code</p></div></div><div role="menuitem" tabindex="0" class="sc-fzoOEf cNOqzS mdc-ripple-upgraded sc-fzoOEf cNOqzS mdc-list-item"><div class="sc-fzppip logiML"><p class="sc-fzoyTs sc-fzoNJl dZKahk">Markdown</p></div></div></div></div><div aria-hidden="true" class="mdc-menu sc-fzonjX geSBQE SessionMenu_Menu-sc-oip47e fIzgta mdc-menu-surface"><div role="menu" class="mdc-list mdc-menu__items mdc-list"><div role="menuitem" tabindex="0" class="sc-fzoOEf cNOqzS mdc-ripple-upgraded sc-fzoOEf cNOqzS mdc-list-item"><div class="sc-fzppip logiML"><i sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI eidhRm sc-fzpdyU bpAxtW">settings_backup_restore</i><p class="sc-fzoyTs sc-fzoNJl dZKahk"><p class="sc-fzoyTs sc-fzoNJl fAwNDo">Restart &amp; Clear Cell Outputs</p></p></div></div><div role="menuitem" tabindex="0" class="sc-fzoOEf cNOqzS mdc-ripple-upgraded sc-fzoOEf cNOqzS mdc-list-item"><div class="sc-fzppip logiML"><i sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI eidhRm sc-fzpdyU bpAxtW">info</i><p class="sc-fzoyTs sc-fzoNJl dZKahk"><p class="sc-fzoyTs sc-fzoNJl fAwNDo">View Session Metrics</p></p></div></div><div role="menuitem" tabindex="0" class="sc-fzoOEf cNOqzS mdc-ripple-upgraded sc-fzoOEf cNOqzS mdc-list-item"><div class="sc-fzppip logiML"><i sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI eidhRm sc-fzpdyU bpAxtW">open_in_new</i><p class="sc-fzoyTs sc-fzoNJl dZKahk"><p class="sc-fzoyTs sc-fzoNJl fAwNDo">Upgrade to Google Cloud AI Notebooks</p></p></div></div><div role="menuitem" tabindex="0" class="sc-fzoOEf cNOqzS mdc-ripple-upgraded sc-fzoOEf cNOqzS mdc-list-item"><div class="sc-fzppip logiML"><i sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI eidhRm sc-fzpdyU bpAxtW">memory</i><p class="sc-fzoyTs sc-fzoNJl dZKahk"><div style="display: flex;"><span>Accelerator</span><div class="sc-pRStN jTbOhh mdc-menu-surface--anchor"><i color="#47494D" sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI KKYur">arrow_right</i></div></div></p></div></div></div></div><div class="sc-pTGsb cvDKjK sc-jxSJjv iswFka mdc-menu-surface"><div role="document"><div class="sc-jCUiOy bDsctF"><ul class="km-list km-list--icon km-list--three-line sc-kjahIM eAhXae"><li class="sc-fzoaKM hNuJKS"><div class="sc-fzomuh bSASvE sc-pckkE iZTZFM"><a class="sc-fzowVh equHBw"><div class="sc-fzqAui eoGDzK"><div class="sc-fzqMdD fZQoNm"><img src="./Exercise_ Lists _ Kaggle_files/5119098-kg.png"></div><div class="sc-fzoVTD Atfvz"><div class="sc-Axmtr sc-fzoiQi sc-fzpisO eJTVEw">Exercise: Lists</div><span class="sc-fzqBkg sc-fzqPZZ sc-fznyYp hliFDS">Interactive Session</span><span class="sc-fzqBkg sc-fzqPZZ sc-fznyYp hliFDS">Running: <span>11 minutes</span></span></div></div></a><div class="sc-fzoJus ksyCXj"><div class="sc-pjIPr fZnZKj"><p class="sc-fzoXWK sc-fzpmMD iffvTX"><span>11 minutes</span></p><div class="mdc-menu-surface--anchor"><button aria-label="more_horiz" class="sc-AxgMl jShmvg google-material-icons">more_horiz</button></div></div></div></div></li></ul><ul class="km-list"><li class="sc-fzoaKM hNuJKS"><div class="sc-fzomuh bSASvE sc-jNERdU fnPGMG"><a class="sc-fzowVh equHBw"><div class="sc-fzqAui eoGDzK"><div class="sc-fzqMdD fZQoNm"><div class="sc-jxKmCM bZExpg"><i emphasis="high" sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI eidhRm sc-jDbEhR hPgMYd">auto_awesome_motion</i><div color="#FAE041" class="sc-jHNiGu fsSdOj">1</div></div></div><div class="sc-Axmtr sc-fzoiQi sc-fzpisO eJTVEw"><p class="sc-fzoyTs sc-fzoNJl gKAukH">1 Active Event</p></div></div></a><div class="sc-fzoJus ksyCXj"><i emphasis="high" sizevalue="24px" role="button" tabindex="0" class="rmwc-icon google-material-icons sc-AxheI eidhRm">expand_more</i></div></div></li></ul></div></div></div><div class="sc-pTGsb cvDKjK sc-jxSJjv iswFka mdc-menu-surface"><div role="document"><div class="sc-jCUiOy bDsctF"><ul class="km-list km-list--icon km-list--three-line sc-kjahIM eAhXae"><li class="sc-fzoaKM hNuJKS"><div class="sc-fzomuh bSASvE sc-pckkE iZTZFM"><a class="sc-fzowVh equHBw"><div class="sc-fzqAui eoGDzK"><div class="sc-fzqMdD fZQoNm"><img src="./Exercise_ Lists _ Kaggle_files/5119098-kg.png"></div><div class="sc-fzoVTD Atfvz"><div class="sc-Axmtr sc-fzoiQi sc-fzpisO eJTVEw">Exercise: Lists</div><span class="sc-fzqBkg sc-fzqPZZ sc-fznyYp hliFDS">Interactive Session</span><span class="sc-fzqBkg sc-fzqPZZ sc-fznyYp hliFDS">Running: <span>11 minutes</span></span></div></div></a><div class="sc-fzoJus ksyCXj"><div class="sc-pjIPr fZnZKj"><p class="sc-fzoXWK sc-fzpmMD iffvTX"><span>11 minutes</span></p><div class="mdc-menu-surface--anchor"><button aria-label="more_horiz" class="sc-AxgMl jShmvg google-material-icons">more_horiz</button></div></div></div></div></li></ul><ul class="km-list"><li class="sc-fzoaKM hNuJKS"><div class="sc-fzomuh bSASvE sc-jNERdU fnPGMG"><a class="sc-fzowVh equHBw"><div class="sc-fzqAui eoGDzK"><div class="sc-fzqMdD fZQoNm"><div class="sc-jxKmCM bZExpg"><i emphasis="high" sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI eidhRm sc-jDbEhR hPgMYd">auto_awesome_motion</i><div color="#FAE041" class="sc-jHNiGu fsSdOj">1</div></div></div><div class="sc-Axmtr sc-fzoiQi sc-fzpisO eJTVEw"><p class="sc-fzoyTs sc-fzoNJl gKAukH">1 Active Event</p></div></div></a><div class="sc-fzoJus ksyCXj"><i emphasis="high" sizevalue="24px" role="button" tabindex="0" class="rmwc-icon google-material-icons sc-AxheI eidhRm">expand_more</i></div></div></li></ul></div></div></div><div aria-hidden="true" class="mdc-menu sc-fzonjX geSBQE sc-pJsLC htlFSH SessionMenu_ChildMenu-sc-1xbreti fYecwW mdc-menu-surface" style="transform-origin: left top; left: 0px; top: 0px; max-height: 789px;"><div role="menu" class="mdc-list mdc-menu__items mdc-list"><div role="menuitem" tabindex="0" class="sc-fzoOEf cNOqzS mdc-ripple-upgraded sc-fzoOEf cNOqzS mdc-list-item"><div class="sc-fzppip logiML"><i sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI eidhRm sc-fzpdyU bpAxtW">check</i><p class="sc-fzoyTs sc-fzoNJl dZKahk"><p class="sc-fzoyTs sc-fzoNJl fAwNDo">None</p></p></div></div><div role="menuitem" tabindex="0" class="sc-fzoOEf cNOqzS mdc-ripple-upgraded sc-fzoOEf cNOqzS mdc-list-item"><div class="sc-fzppip logiML"><p class="sc-fzoyTs sc-fzoNJl dZKahk"><p class="sc-fzoyTs sc-fzoNJl fAwNDo">GPU</p></p></div></div><div role="menuitem" tabindex="0" class="sc-fzoOEf cNOqzS mdc-ripple-upgraded sc-fzoOEf cNOqzS mdc-list-item"><div class="sc-fzppip logiML"><p class="sc-fzoyTs sc-fzoNJl dZKahk"><p class="sc-fzoyTs sc-fzoNJl fAwNDo">TPU v3-8</p></p></div></div></div></div><div><div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; display: block; transition: right 0.3s ease 0s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;"><div class="grecaptcha-logo"><iframe title="reCAPTCHA" src="./Exercise_ Lists _ Kaggle_files/anchor.html" width="256" height="60" role="presentation" name="a-osy3qyxv8xqb" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response-100000" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;" src="./Exercise_ Lists _ Kaggle_files/saved_resource(1).html"></iframe></div><div aria-hidden="true" class="mdc-menu sc-fzonjX geSBQE sc-jNeAlz lnouZd mdc-menu-surface"><div role="menu" class="mdc-list mdc-menu__items mdc-list"><a href="https://www.kaggle.com/s/20294289/edit" target="_blank" class="sc-fznBMq ekttti"><div role="menuitem" tabindex="0" class="sc-fzoOEf cNOqzS mdc-ripple-upgraded sc-fzoOEf cNOqzS mdc-list-item"><div class="sc-fzppip logiML"><i sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI eidhRm sc-fzpdyU bpAxtW">edit</i><p class="sc-fzoyTs sc-fzoNJl dZKahk">Edit</p></div></div></a><div role="menuitem" tabindex="0" class="sc-fzoOEf cNOqzS mdc-ripple-upgraded sc-fzoOEf cNOqzS mdc-list-item"><div class="sc-fzppip logiML"><i sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI eidhRm sc-fzpdyU bpAxtW">stop</i><p class="sc-fzoyTs sc-fzoNJl dZKahk">Stop Session</p></div></div></div></div><div aria-hidden="true" class="mdc-menu sc-fzonjX geSBQE sc-jNeAlz lnouZd mdc-menu-surface"><div role="menu" class="mdc-list mdc-menu__items mdc-list"><a href="https://www.kaggle.com/s/20294289/edit" target="_blank" class="sc-fznBMq ekttti"><div role="menuitem" tabindex="0" class="sc-fzoOEf cNOqzS mdc-ripple-upgraded sc-fzoOEf cNOqzS mdc-list-item"><div class="sc-fzppip logiML"><i sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI eidhRm sc-fzpdyU bpAxtW">edit</i><p class="sc-fzoyTs sc-fzoNJl dZKahk">Edit</p></div></div></a><div role="menuitem" tabindex="0" class="sc-fzoOEf cNOqzS mdc-ripple-upgraded sc-fzoOEf cNOqzS mdc-list-item"><div class="sc-fzppip logiML"><i sizevalue="24px" class="rmwc-icon google-material-icons sc-AxheI eidhRm sc-fzpdyU bpAxtW">stop</i><p class="sc-fzoyTs sc-fzoNJl dZKahk">Stop Session</p></div></div></div></div></body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
